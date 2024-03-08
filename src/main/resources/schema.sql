@@ -15,7 +15,7 @@ CREATE TABLE location (
 );
 
 CREATE TABLE dog (
-	dog_id into NOT NULL AUTO_INCREMENT,
+	dog_id int NOT NULL AUTO_INCREMENT,
 	location_id int NOT NULL,
 	name varchar(60) NOT NULL,
 	age int,
